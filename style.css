@@ -1,0 +1,32 @@
+body {
+  padding: 10px 50px;
+  color: azure;
+  background-color: black;
+  text-align: center;
+}
+
+.fdesign {
+  font-size: 30px;
+}
+
+.fdesign input {
+  border: 5px solid rgb(73, 20, 171);
+  margin: 14px;
+  border-radius: 5px;
+  font-size: 14px;
+  width: 50%;
+  padding: 10px 20px;
+}
+
+.ferr {
+  color: red;
+}
+
+.btn{
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  font-size: 25px;
+  margin: 22px 20px;
+}
+

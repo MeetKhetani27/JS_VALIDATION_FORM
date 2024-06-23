@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Welcome To Best Form On Internet!</h1>
+
+    <form action="/myaction.php" name="myform" onsubmit="return validateform()" method="post">
+
+      <div class="fdesign" id="name">
+        Name: <input type="text" name="fname" required/>
+        <b><span class="ferr"></span></b>
+      </div>
+
+      <div class="fdesign" id="email">
+        Email: <input type="email" name="femail"    />
+        <b><span class="ferr"></span></b>
+      </div>
+
+      <div class="fdesign" id="phone">
+        phone: <input type="phone" name="fphone" required/>
+        <b><span class="ferr"></span></b>
+      </div>
+
+      <div class="fdesign" id="password">
+        password: <input type="password" name="p" required/>
+        <b><span class="ferr"></span></b>
+      </div>
+
+      <div class="fdesign" id="cpassword">
+        Confirm password: <input type="password" name="cpassword" required/>
+        <b><span class="ferr"></span></b>
+      </div>
+
+      <input type="submit" name="submit" class="btn" value="Submit">
+
+
+    </form>
+
+<script src="script.js"></script>
+
+  </body>
+</html>
